@@ -1,0 +1,11 @@
+tuples: list which is immutable.
+dictionary: key/value
+tuples and lists are ordered, but dictionary is not ordered.
+set has no duplicates. It's mutable and not ordered.
+
+dic = {x: chr(x) for x in range(97, 107)} . This is a dict
+st = {x for x in range(1,4)}. This is a set. Check it's same as dict except not have a Colon(:)
+
+Yield statement: similar to return, but suspends execution of function call instead of ending. It's of type generator
+
+with statement used mainly for doing I/O. Autocloses the file handle and threading (which auto-acquires and releases lock)

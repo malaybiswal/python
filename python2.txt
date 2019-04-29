@@ -1,0 +1,46 @@
+BILL EASTRIDGE
+weastridge@gmail.com
+
+tinyurl.com/py2dataz
+tinyurl.com/lastlabz
+tinyurl.com/labsday2
+fin = open('-','r')
+
+for linein in fin: # Read line by line
+
+x= fin.read() # REad whole file into memory
+
+
+x='\r\n123\t\nxyz'
+
+print('{0!r}'.format(x))
+
+Data Structure:
+
+Strings
+List/Tuples: Arrays
+Sets: Unordered collection and eliminating duplicate entries
+Dictionaries: Indexed by Keys and for quick retrieval
+
+
+x= 'malay'
+len(x) prodcues 5
+"red in "bred" returns true
+"*" * 3 returns ***
+for j in x:
+	print(j)
+
+>>> x='himalayas'
+>>> print(x[-1::-1])
+sayalamih
+
+x.find("ya")
+x.count("a")
+x.endswith("az")
+x.isalpha()
+x.isdigit()
+
+chr()
+ord()
+
+

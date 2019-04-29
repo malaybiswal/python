@@ -1,0 +1,11 @@
+num=int(input())
+s=''
+count=1;temp=0
+while(num/2>=1):
+    s=str((num%2))+s
+    #print(num,"-",s)
+    num=int(num/2)
+    #print(num)
+s=str(num)+s
+print(s)
+print(str(max(s.split('0'))).count('1'))
